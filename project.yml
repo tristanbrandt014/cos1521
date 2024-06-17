@@ -1,0 +1,11 @@
+name: COS1512
+
+targets:
+  COS1512:
+    type: tool
+    platform: macOS
+    sources:
+      - src
+
+settings:
+  DEAD_CODE_STRIPPING: true
