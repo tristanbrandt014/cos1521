@@ -14,11 +14,11 @@ This repository contains my code for the COS1512 module at the University of Sou
 ## Structure
 
  - Chapters and module content live in the `src/chapters` directory. 
- - Each chapter has its own directory with a `main.cpp` file that contains the code for that chapter. 
+ - Each chapter has its own directory with a `chapter{n}.cpp` file that contains the code for that chapter, where `n` is the chapter number. 
  - Each main file has a package declaration at the top of the file that corresponds to the chapter number. 
  - Each namespace will have a `run` function that will be called from `src/main.cpp`.
 
-E.g. `src/chapters/chapter1/main.cpp`:
+E.g. `src/chapters/chapter1/chapter1.cpp`:
 ```cpp
 #include <iostream>
 
