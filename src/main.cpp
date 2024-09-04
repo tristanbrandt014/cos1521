@@ -1,9 +1,9 @@
 #include <iostream>
-#include "chapters/chapter6/chapter6.hpp"
+#include "chapters/chapter9/chapter9.hpp"
 
 using namespace std;
 
 int main() {
-    chapter6::run();
+    chapter9::run();
     return 0;
 }
